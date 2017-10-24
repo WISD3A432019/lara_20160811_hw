@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //
+        return view('home');
     }
 
     /**
@@ -23,12 +23,12 @@ class HomeController extends Controller
      */
     public function about()
     {
-        //
+        return view('about');
     }
 
       public function news()
     {
-        //
+       return view('news');
     }
 
     /**

@@ -21,15 +21,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function about()
-    {
-        return view('about');
-    }
+    
 
-      public function news()
-    {
-       return view('news');
-    }
+     
 
     /**
      * Store a newly created resource in storage.

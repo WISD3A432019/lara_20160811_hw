@@ -16,8 +16,8 @@ Route::get('/',['as'=>'home.index','uses'=>
 
 
 Route::get('/about',['as'=>'about.index','uses'=>
-'HomeController@about']);
+'AboutController@index']);
 
 Route::get('/news',['as'=>'news.index','uses'=>
-'HomeController@news']);
+'NewsController@index']);
 
